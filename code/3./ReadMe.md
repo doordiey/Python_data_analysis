@@ -12,7 +12,7 @@ TypeError: 'AxesSubplot' object has no attribute '__getitem__'。
 
 产生原因是p在data.boxplot()返回对象不行，将返回类型指定一下。然后就可以了。
 
-输出结果为：![没了。]()
+输出结果为：![没了。](https://github.com/doordiey/Python_data_analysis/blob/master/image/3-2.png)
 
 #### 3-3.py:3-1的部分改良。
 
@@ -22,7 +22,7 @@ TypeError: 'AxesSubplot' object has no attribute '__getitem__'。
 
 二。说明可以对整列数据进行加减乘除的处理，以得到自己想看到的数据。
 
-####3-4.py:菜品盈利的贡献度分析图
+####  3-4.py:菜品盈利的贡献度分析图
 
 其中有两个函数说明一下：
 
@@ -40,7 +40,7 @@ arrowprops 为箭头参数其参数类型应为字典类型。
 
 其中：arrowstyle和connectionStyle为进一步设定箭头样式，可以有更多样子，需要的可以了解更多参数，进行调整。）
 
-输出结果为：![]()
+输出结果为：![没了。](https://github.com/doordiey/Python_data_analysis/blob/master/image/3-4.png)
 
 #### 3-5.py:计算相关系数函数（由此判断两个变量之间是否相关）
 

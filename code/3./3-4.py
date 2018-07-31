@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-profit = '../../data/catering_dish_profit.xls'
+profit = '../../data/3./catering_dish_profit.xls'
 data = pd.read_excel(profit,index_col = u'菜品名')
 data = data[u'盈利'].copy()
 
