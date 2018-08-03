@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-sale = '../../data/3./catering_sale_all.xls'
+sale = '../../data/3-/catering_sale_all.xls'
 data = pd.read_excel(sale,index_col = u'日期')
 
 show  = data.corr() #任意两款之间的相关系数

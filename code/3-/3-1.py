@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
 import pandas as pd
-catering_sale = '../../data/3./catering_sale.xls'     #数据存储位置
+catering_sale = '../../data/3-/catering_sale.xls'     #数据存储位置
 data = pd.read_excel(catering_sale,index_col = u'日期') #读取文件信息，以日期列为索引列
 print(data.describe())
 

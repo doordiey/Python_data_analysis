@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-datafile = '../../data/4./discretization_data.xls'
+datafile = '../../data/4-/discretization_data.xls'
 data = pd.read_excel(datafile)
 data = data['肝气郁结证型系数'].copy()
 k=4

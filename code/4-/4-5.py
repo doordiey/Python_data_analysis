@@ -3,7 +3,7 @@ from scipy.io import loadmat
 import pywt
 
 
-inputfile = '../../data/4./leleccum.mat'  #提取自matlab的信号文件。
+inputfile = '../../data/4-/leleccum.mat'  #提取自matlab的信号文件。
 mat = loadmat(inputfile)
 print(mat)
 sigal = mat['leleccum'][0]

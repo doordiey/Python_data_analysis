@@ -2,8 +2,8 @@
 import pandas as pd
 from scipy.interpolate import lagrange
 
-inputfile = '../../data/4./catering_sale.xls'
-outputfile = '../../data/4./sales.xls'
+inputfile = '../../data/4-/catering_sale.xls'
+outputfile = '../../data/4-/sales.xls'
 
 data = pd.read_excel(inputfile)
 m = data[u'销量'][(data[u'销量'] < 400 ) | (data[u'销量'] > 5000)]

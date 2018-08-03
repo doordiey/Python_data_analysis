@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 import pandas as pd
-sale = '../../data/3./catering_sale.xls'
+sale = '../../data/3-/catering_sale.xls'
 data = pd.read_excel(sale,index_col = u'日期') 
 data= data[(data[u'销量'] > 400)&(data[u'销量'] < 5000)]
 #过滤数据。
